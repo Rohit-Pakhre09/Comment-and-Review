@@ -28,6 +28,7 @@ function StudentForm() {
   const submitForm = (e) => {
     e.preventDefault();
     console.log(input);
+    setInput(studentData);
   };
 
   return (
@@ -36,7 +37,10 @@ function StudentForm() {
         Student Details
       </p>
 
-      <form className="h-auto w-90 sm:w-100 p-5 flex flex-col gap-5" onSubmit={submitForm}>
+      <form
+        className="h-auto w-90 sm:w-100 p-5 flex flex-col gap-5"
+        onSubmit={submitForm}
+      >
         {/* Full Name */}
         <input
           type="text"
@@ -63,7 +67,7 @@ function StudentForm() {
             name="profession"
             value={profession}
             onChange={settingData}
-            className="w-full appearance-none bg-gray-100 text-gray-700 p-2 rounded-md border border-gray-300 shadow focus:outline-none focus:ring-2 focus:ring-blue-300 cursor-pointer"
+            className="w-full appearance-none bg-gray-100 text-gray-700 p-2 rounded-md border border-gray-300 shadow focus:outline-none focus:ring-2 focus:ring-blue-300 cursor-pointer overflow-hidden text-ellipsis whitespace-nowrap"
           >
             <option value="">Select Your Profession</option>
             <option value="Freshman">Freshman</option>
