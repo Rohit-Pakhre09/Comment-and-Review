@@ -222,7 +222,7 @@ function StudentForm() {
           {/* Submit Button */}
           <button
             type="submit"
-            className="p-3 bg-blue-500 shadow-md rounded-md font-medium uppercase text-white cursor-pointer"
+            className="p-3 bg-blue-500 shadow-md rounded-md text-xl font-medium uppercase text-white cursor-pointer"
           >
             Submit
           </button>
