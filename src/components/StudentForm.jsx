@@ -34,7 +34,7 @@ const schemaValidation = Yup.object({
     .required("• Gender is required!"),
 
   password: Yup.string()
-    .required("'• Password is required!")
+    .required("• Password is required!")
     .matches(
       /^(?=.*[a-z])(?=.*[A-Z])(?=.*\d)(?=.*[!@#$%^&*()_\-+={}[\]|:;"'<>,.?/~`])[A-Za-z\d!@#$%^&*()_\-+={}[\]|:;"'<>,.?/~`]{8,}$/,
       "• Must contain 8+ characters, 1 uppercase, 1 lowercase, 1 number & 1 special character!"
