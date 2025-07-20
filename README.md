@@ -36,6 +36,7 @@ A responsive web application built with Vite, React, Formik, Yup, and Tailwind C
 ## Screenshots
 
 ![Mobile View](./src/assets/Comment%20&%20Review.png)
+- Explanation Video: https://drive.google.com/file/d/1-EufAn4a2opgVRNaOwi46zeVDnoKBHfW/view?usp=sharing
 ---
 
 ## Tech Stack
