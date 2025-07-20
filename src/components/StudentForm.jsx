@@ -138,7 +138,7 @@ function StudentForm() {
                     checked={formikObj.values.gender === g}
                     onChange={formikObj.handleChange}
                     onBlur={formikObj.handleBlur}
-                    className="w-4 h-4 accent-blue-600"
+                    className="w-4 h-4 accent-blue-600 cursor-pointer"
                   />
                   <span>{g}</span>
                 </label>
